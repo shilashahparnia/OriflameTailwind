@@ -1,0 +1,43 @@
+/*@tailwind base;*/
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Shila;
+  src: url(../fonts/OriflameSansPrint-Oblique.ttf);
+  src: url(../fonts/OriflameSansPrint-Oblique.otf);
+  src: url(../fonts/OriflameSansPrint-Oblique.woff);
+  src: url(../fonts/OriflameSansPrint-Oblique.woff2);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Shila;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  @apply w-3/12 flex flex-row flex-wrap justify-center content-center;
+}
+p.text {
+  @apply font-bold xl:text-[36px] lg:text-[32px] md:text-[25px] sm:text-[20px] text-[18px];
+}
+
+.view {
+  @apply w-[130px] h-full border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-100 my-auto cursor-pointer
+}
+
+.edition{
+  @apply absolute top-3 xl:left-6 lg:left-3 md:left-5 sm:left-64 left-48 w-[100px] h-8 bg-gray-500 rounded-lg flex justify-center items-center
+}
+
+.tag {
+  @apply w-14 h-14 bg-[#685BC7] absolute top-3 xl:left-6 lg:left-4 md:left-4 sm:left-64 left-48 flex justify-center items-center rounded-full cursor-pointer hover:bg-purple-400 transition-all duration-300;
+}
+
+.bag{
+  @apply absolute bottom-3 xl:right-5 lg:right-5 md:right-4 sm:right-64 right-52 w-14 h-14 bg-[#9EC2B6] hover:bg-teal-500 rounded-full flex justify-center items-center cursor-pointer
+}
+

@@ -1,0 +1,17 @@
+{
+  "name": "oriflame_tailwind",
+  "version": "1.2.0",
+  "description": "oriflame uk web site",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./tailwind/tailwind.css -o ./css/main.css --watch"
+  },
+  "author": "Shila Shahparnia",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
