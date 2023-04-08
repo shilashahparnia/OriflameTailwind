@@ -26,18 +26,25 @@ p.text {
 }
 
 .view {
-  @apply w-[130px] h-full border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-100 my-auto cursor-pointer
+  @apply w-[130px] h-full border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-100 my-auto cursor-pointer;
 }
 
-.edition{
-  @apply absolute top-3 xl:left-6 lg:left-3 md:left-5 sm:left-64 left-48 w-[100px] h-8 bg-gray-500 rounded-lg flex justify-center items-center
+.edition {
+  @apply absolute top-3 xl:left-6 lg:left-3 md:left-5 sm:left-64 left-48 w-[100px] h-8 bg-gray-500 rounded-lg flex justify-center items-center;
 }
 
 .tag {
   @apply w-14 h-14 bg-[#685BC7] absolute top-3 xl:left-6 lg:left-4 md:left-4 sm:left-64 left-48 flex justify-center items-center rounded-full cursor-pointer hover:bg-purple-400 transition-all duration-300;
 }
 
-.bag{
-  @apply absolute bottom-3 xl:right-5 lg:right-5 md:right-4 sm:right-64 right-52 w-14 h-14 bg-[#9EC2B6] hover:bg-teal-500 rounded-full flex justify-center items-center cursor-pointer
+.bag {
+  @apply absolute bottom-3 xl:right-5 lg:right-5 md:right-4 sm:right-64 right-52 w-14 h-14 bg-[#9EC2B6] hover:bg-teal-500 rounded-full flex justify-center items-center cursor-pointer;
 }
 
+.badge {
+  @apply uppercase rounded-3xl w-auto p-2 absolute top-56 xl:left-48 lg:left-48 md:left-40 sm:left-40 left-28 bg-[#75ab99] text-white font-bold hover:bg-[#9fcbbc];
+}
+
+.capsul{
+  @apply w-32 h-12 border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-100 my-auto cursor-pointer m-10
+}
