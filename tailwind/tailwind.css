@@ -18,6 +18,43 @@
 a {
   text-decoration: none;
 }
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next > i.arrow-icon {
+  font-size: 35px;
+  color: grey;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev > i.arrow-icon {
+  font-size: 35px;
+  color: grey;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+
 .title {
   @apply w-3/12 flex flex-row flex-wrap justify-center content-center;
 }
@@ -45,6 +82,6 @@ p.text {
   @apply uppercase rounded-3xl w-auto p-2 absolute top-56 xl:left-48 lg:left-48 md:left-40 sm:left-40 left-28 bg-[#75ab99] text-white font-bold hover:bg-[#9fcbbc];
 }
 
-.capsul{
-  @apply w-32 h-12 border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-100 my-auto cursor-pointer m-10
+.capsul {
+  @apply w-32 h-12 border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-100 my-auto cursor-pointer m-10;
 }

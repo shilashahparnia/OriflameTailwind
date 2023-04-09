@@ -15,12 +15,75 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="icon" href="./images/O.png" />
     <link rel="stylesheet" href="./icons/css/all.min.css" />
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
   </head>
   <body>
     <main class="wrapper w-full">
-      <!--make slider-->
-    <div class="w-full h-[500px] bg-emerald-100 mt-10"></div>
-    <!--end slider-->
+    <!--make swiper-->
+    <div class="w-full h-full mt-10">
+      <div class="swiper myShila">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="w-full h-full relative">
+             <img src="./images/slider1.jpeg" alt="perfume">
+             <div class="w-auto h-auto absolute z-50 top-[70px] xl:left-2/4 lg:left-2/4 md:left-[300px] sm:left-[230px] left-[200px] flex flex-wrap flex-col justify-center gap-1 items-center">
+              <p class="uppercase xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[18px] text-[12px]">A lasting memory of a mother’s love</p>
+              <p class="text-center font-bold xl:text-[50px] lg:text-[40px] md:text-[35px] sm:text-[22px] text-[14px]">Signature scent to inspire the next generation</p>
+              <div class="w-full h-12 mx-auto mt-2 flex flex-wrap justify-center">
+                <div
+                  class="w-40 h-12 border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold my-auto cursor-pointer m-5 bg-slate-400 opacity-50"
+                >
+                  <a href="#" class="uppercase text-white text-sm">Shop new arrivals</a>
+                </div>
+              </div>
+             </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="w-full h-full relative">
+             <img src="./images/slider2.jpeg" alt="cream">
+             <div class="w-auto h-auto absolute z-50 top-[70px] xl:left-2/4 lg:left-2/4 md:left-[300px] sm:left-[230px] left-[200px] flex flex-wrap flex-col justify-center gap-1 items-center">
+              <p class="uppercase xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[18px] text-[12px]">4-step skin performance</p>
+              <p class="text-center font-bold xl:text-[50px] lg:text-[40px] md:text-[35px] sm:text-[22px] text-[14px]">Personalised Novage+ skincare routines</p>
+              <div class="w-full h-12 mx-auto mt-2 flex flex-wrap justify-center">
+                <div
+                  class="w-40 h-12 border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold my-auto cursor-pointer m-5 bg-slate-400 opacity-50"
+                >
+                  <a href="#" class="uppercase text-white text-sm">discover more</a>
+                </div>
+              </div>
+             </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="w-full h-full relative">
+             <img src="./images/slider3.jpeg" alt="bodyCare">
+             <div class="w-auto h-auto absolute z-50 top-[70px] xl:left-2/4 lg:left-2/4 md:left-[300px] sm:left-[230px] left-[200px] flex flex-wrap flex-col justify-center gap-1 items-center">
+              <p class="uppercase xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[18px] text-[12px]">Unveiled: The Body Edition</p>
+              <p class="text-center font-bold xl:text-[50px] lg:text-[40px] md:text-[35px] sm:text-[22px] text-[14px]">Bring innovation into body care</p>
+              <div class="w-full h-12 mx-auto mt-2 flex flex-wrap justify-center">
+                <div
+                  class="w-40 h-12 border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold my-auto cursor-pointer m-5 bg-slate-400 opacity-50"
+                >
+                  <a href="#" class="uppercase text-white text-sm">Shop new arrivals</a>
+                </div>
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next">
+          <i class="fas fa-chevron-circle-right arrow-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fas fa-chevron-circle-left arrow-icon"></i>
+        </div>
+      </div>
+    </div>
+    <!--end swiper-->
+    <!--make category-->
+    <div class="bg-[#e8e5e5] w-ful h-14"></div>
+    <!--end category-->
     <!--make What's new title-->
     <div
       class="flex flex-row flex-wrap w-10/12 mx-auto h-[50px] justify-between content-center mt-14"
@@ -1123,6 +1186,7 @@
       </div>
     </div>
     <!--make the second footer-->
+    <script src="./swiper/swiper-bundle.min.js"></script>
     <script src="./js/main.js"></script>
     </main>
   </body>

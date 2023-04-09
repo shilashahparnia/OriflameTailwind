@@ -9,7 +9,8 @@
   "author": "Shila Shahparnia",
   "license": "ISC",
   "dependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "swiper": "^9.2.0"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.1"

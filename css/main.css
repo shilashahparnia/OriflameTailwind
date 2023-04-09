@@ -20,6 +20,10 @@
   left: 2rem;
 }
 
+.left-\[200px\] {
+  left: 200px;
+}
+
 .top-28 {
   top: 7rem;
 }
@@ -32,6 +36,14 @@
   top: 14rem;
 }
 
+.top-\[70px\] {
+  top: 70px;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
 .m-1 {
   margin: 0.25rem;
 }
@@ -42,6 +54,10 @@
 
 .m-3 {
   margin: 0.75rem;
+}
+
+.m-5 {
+  margin: 1.25rem;
 }
 
 .mx-10 {
@@ -115,6 +131,10 @@
 
 .mt-14 {
   margin-top: 3.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mt-20 {
@@ -213,10 +233,6 @@
   height: 450px;
 }
 
-.h-\[500px\] {
-  height: 500px;
-}
-
 .h-\[50px\] {
   height: 50px;
 }
@@ -233,8 +249,12 @@
   height: 100%;
 }
 
-.w-full {
-  width: 100%;
+.h-20 {
+  height: 5rem;
+}
+
+.h-1 {
+  height: 0.25rem;
 }
 
 .w-0 {
@@ -271,6 +291,10 @@
 
 .w-4\/6 {
   width: 66.666667%;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .w-5\/12 {
@@ -315,6 +339,10 @@
 
 .w-auto {
   width: auto;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .cursor-pointer {
@@ -422,9 +450,44 @@
   background-color: rgb(209 250 229 / var(--tw-bg-opacity));
 }
 
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+}
+
 .bg-slate-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#E2E3DD\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 227 221 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#a0a19e\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(160 161 158 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#F4F4F4\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 244 244 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#c1bebe\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(193 190 190 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#e8e5e5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 229 229 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -460,6 +523,10 @@
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
 }
 
 .text-\[14px\] {
@@ -564,6 +631,10 @@
   text-decoration-line: line-through;
 }
 
+.opacity-50 {
+  opacity: 0.5;
+}
+
 .opacity-75 {
   opacity: 0.75;
 }
@@ -589,6 +660,43 @@
 
 a {
   text-decoration: none;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-button-next > i.arrow-icon {
+  font-size: 35px;
+  color: grey;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev > i.arrow-icon {
+  font-size: 35px;
+  color: grey;
+}
+
+.swiper-button-prev::after {
+  display: none;
 }
 
 .title {
@@ -869,6 +977,10 @@ p.text {
     left: 10rem;
   }
 
+  .sm\:left-\[230px\] {
+    left: 230px;
+  }
+
   .sm\:mx-20 {
     margin-left: 5rem;
     margin-right: 5rem;
@@ -906,6 +1018,10 @@ p.text {
     text-align: center;
   }
 
+  .sm\:text-\[18px\] {
+    font-size: 18px;
+  }
+
   .sm\:text-\[20px\] {
     font-size: 20px;
   }
@@ -930,6 +1046,10 @@ p.text {
 
   .md\:left-40 {
     left: 10rem;
+  }
+
+  .md\:left-\[300px\] {
+    left: 300px;
   }
 
   .md\:mx-0 {
@@ -996,6 +1116,10 @@ p.text {
   .md\:text-\[22px\] {
     font-size: 22px;
   }
+
+  .md\:text-\[35px\] {
+    font-size: 35px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1005,6 +1129,10 @@ p.text {
 
   .lg\:left-10 {
     left: 2.5rem;
+  }
+
+  .lg\:left-2\/4 {
+    left: 50%;
   }
 
   .lg\:left-20 {
@@ -1068,12 +1196,20 @@ p.text {
     text-align: left;
   }
 
+  .lg\:text-\[18px\] {
+    font-size: 18px;
+  }
+
   .lg\:text-\[20px\] {
     font-size: 20px;
   }
 
   .lg\:text-\[22px\] {
     font-size: 22px;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
   }
 }
 
@@ -1084,6 +1220,10 @@ p.text {
 
   .xl\:left-16 {
     left: 4rem;
+  }
+
+  .xl\:left-2\/4 {
+    left: 50%;
   }
 
   .xl\:left-48 {
@@ -1135,11 +1275,19 @@ p.text {
     text-align: left;
   }
 
+  .xl\:text-\[18px\] {
+    font-size: 18px;
+  }
+
   .xl\:text-\[22px\] {
     font-size: 22px;
   }
 
   .xl\:text-\[25px\] {
     font-size: 25px;
+  }
+
+  .xl\:text-\[50px\] {
+    font-size: 50px;
   }
 }
