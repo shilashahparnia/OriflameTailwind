@@ -26,7 +26,6 @@ a {
 
 .swiper-slide {
   font-size: 18px;
-  background: #fff;
   display: flex;
 }
 
@@ -53,6 +52,13 @@ a {
 
 .swiper-button-prev::after {
   display: none;
+}
+
+.swiper-button-next> i.fa-chevron-right{
+  color: black
+}
+.swiper-button-prev> i.fa-chevron-left{
+  color: black
 }
 
 .title {

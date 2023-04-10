@@ -19,6 +19,43 @@
   </head>
   <body>
     <main class="wrapper w-full">
+    <!--make menu 2xl xl lg-->
+    <nav class="bg-white w-full h-20 sticky top-0 z-50 2xl:block xl:block lg:block md:hidden sm:hidden hidden">
+      <div class="bg-red-100 w-11/12 mx-auto h-full flex flex-wrap flex-row gap-2 justify-between items-center">
+        <div class="bg-orange-200 w-3/12 h-full flex flex-wrap flex-row justify-between items-center gap-1">
+          <ul class="bg-purple-400 w-2/12 h-full flex flex-wrap justify-center items-center">
+            <li class="list-none">
+              <a href="#"><i class="fa-solid fa-bars text-[25px] text-black hover:text-gray-400"></i></a>
+            </li>
+          </ul>
+          <ul class="bg-purple-400 w-2/12 h-full flex flex-wrap justify-center items-center">
+            <a href="#"><i class="fa-regular fa-user text-[25px] text-black"></i></a>
+          </ul>
+          <ul class="bg-purple-400 w-4/12 h-full flex flex-wrap justify-center items-center">
+            <li class="list-none">
+              <a href="#" class="font-bold  text-black hover:text-gray-400">Our story</a>
+            </li>
+          </ul>
+          <ul class="bg-purple-400 w-3/12 h-full flex flex-wrap justify-center items-center">
+            <li class="list-none">
+              <a href="#" class="font-bold text-black hover:text-gray-400">Join us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-orange-200 w-3/12 h-full flex flex-wrap justify-center items-center">
+         <a href="#"><img src="./images/oriflame.svg" class="w-40 h-14" alt="logo"></a>
+        </div>
+        <div class="bg-orange-200 w-3/12 h-full flex flex-wrap justify-end items-center gap-3">
+          <div class="bg-purple-300 w-9/12 h-full"></div>
+          <ul class="bg-purple-300 w-2/12 h-full flex flex-wrap justify-center items-center">
+            <li class="list-none">
+              <a href="#"><i class="fa-solid fa-cart-shopping text-[25px] text-black hover:text-gray-400"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end menu 2xl xl lg-->
     <!--make swiper-->
     <div class="w-full h-full mt-10">
       <div class="swiper myShila">
@@ -81,9 +118,112 @@
       </div>
     </div>
     <!--end swiper-->
-    <!--make category-->
-    <div class="bg-[#e8e5e5] w-ful h-14"></div>
-    <!--end category-->
+    <!--make category 2xl xl lg-->
+    <div class="bg-[#e8e5e5] w-ful h-12 2xl:flex xl:flex lg:flex md:hidden sm:hidden hidden flex-wrap flex-row justify-center gap-1">
+      <div class="w-2/12 h-full flex flex-wrap flex-row items-center">
+        <svg aria-hidden="true" class="w-[30px] MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTab-iconWrapper appshell-fp-wr8ge5" data-testid="CatalogueIcon" focusable="false" viewBox="0 0 24 24">
+          <path d="m18.645 4.407-5.691.758a1.68 1.68 0 0 0-.954.482 1.674 1.674 0 0 0-.955-.482l-5.689-.758A1.398 1.398 0 0 0 3.75 5.813v11.344a1.72 1.72 0 0 0 1.469 1.679l5.69.758a1.375 1.375 0 0 0 1.09-.324 1.377 1.377 0 0 0 1.089.324l5.691-.758a1.72 1.72 0 0 0 1.469-1.679V5.813c0-.863-.736-1.526-1.605-1.406zm-7.533 14.169-5.755-.763a.698.698 0 0 1-.575-.657V5.812c0-.226.149-.384.427-.384h.011l5.69.758a.7.7 0 0 1 .575.657v11.344c0 .229-.153.389-.373.389zm8.107-1.42a.7.7 0 0 1-.574.657l-5.756.763c-.22 0-.373-.16-.373-.389V6.843c0-.308.268-.615.574-.657l5.756-.762c.22 0 .373.159.373.388v11.344z"/>
+          <path d="m17.33 7.88-3.062.41a.516.516 0 1 0 .137 1.022l3.062-.41a.517.517 0 0 0 .443-.58.517.517 0 0 0-.58-.442zm0 3.094-3.062.409a.516.516 0 1 0 .137 1.022l3.062-.409a.517.517 0 0 0 .443-.58.52.52 0 0 0-.58-.442zm0 3.093-3.062.409a.516.516 0 1 0 .137 1.022l3.062-.409a.516.516 0 1 0-.137-1.022zM8.789 7.862l-1.177-.157c-.882-.121-1.606.543-1.606 1.406v4.726a1.72 1.72 0 0 0 1.469 1.679l1.178.157a1.397 1.397 0 0 0 1.606-1.406V9.541c0-.831-.646-1.569-1.47-1.679zm.44 6.405c0 .229-.153.389-.373.389l-1.244-.162a.698.698 0 0 1-.575-.657V9.111c0-.226.149-.384.427-.384h.011l1.178.157a.7.7 0 0 1 .575.657v4.726z"/>
+        </svg>
+        <a href="#" class="uppercase text-black font-bold text-xs">eCatalogue</a>
+      </div>
+      <div class="w-1/12 h-full flex flex-wrap flex-row items-center justify-center">
+        <a href="#" class="uppercase text-black font-bold text-xs">Skin care</a>
+      </div>
+      <div class="w-1/12 h-full flex flex-wrap flex-row items-center justify-center">
+        <a href="#" class="uppercase text-black font-bold text-xs">Make-Up</a>
+      </div>
+      <div class="w-1/12 h-full flex flex-wrap flex-row items-center justify-center">
+        <a href="#" class="uppercase text-black font-bold text-xs">Fragrance</a>
+      </div>
+      <div class="w-1/12 h-full flex flex-wrap flex-row items-center justify-center">
+        <a href="#" class="uppercase text-black font-bold text-xs">Bath & Body</a>
+      </div>
+      <div class="w-1/12 h-full flex flex-wrap flex-row items-center justify-center">
+        <a href="#" class="uppercase text-black font-bold text-xs">hair</a>
+      </div>
+      <div class="w-1/12 h-full flex flex-wrap flex-row items-center justify-center">
+        <a href="#" class="uppercase text-black font-bold text-xs">Accessories</a>
+      </div>
+      <div class="w-1/12 h-full flex flex-wrap flex-row items-center justify-center">
+        <a href="#" class="uppercase text-black font-bold text-xs">wellness</a>
+      </div>
+      <div class="w-1/12 h-full flex flex-wrap flex-row items-center justify-center">
+        <a href="#" class="uppercase text-black font-bold text-xs">men</a>
+      </div>
+      <div class="w-1/12 h-full flex flex-wrap flex-row items-center justify-center">
+        <a href="#" class="uppercase text-black font-bold text-xs">Kids & Baby</a>
+      </div>
+    </div>
+    <!--end category xl lg-->
+    <!--make caegory md sm xs-->
+    <div class="bg-[#e8e5e5] w-ful h-12 xl:hidden lg:hidden md:flex sm:flex flex p-1">
+      <div class="swiper myShahpar">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="h-full flex flex-wrap flex-row items-center mx-4">
+              <svg aria-hidden="true" class="w-[30px] MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiTab-iconWrapper appshell-fp-wr8ge5" data-testid="CatalogueIcon" focusable="false" viewBox="0 0 24 24">
+                <path d="m18.645 4.407-5.691.758a1.68 1.68 0 0 0-.954.482 1.674 1.674 0 0 0-.955-.482l-5.689-.758A1.398 1.398 0 0 0 3.75 5.813v11.344a1.72 1.72 0 0 0 1.469 1.679l5.69.758a1.375 1.375 0 0 0 1.09-.324 1.377 1.377 0 0 0 1.089.324l5.691-.758a1.72 1.72 0 0 0 1.469-1.679V5.813c0-.863-.736-1.526-1.605-1.406zm-7.533 14.169-5.755-.763a.698.698 0 0 1-.575-.657V5.812c0-.226.149-.384.427-.384h.011l5.69.758a.7.7 0 0 1 .575.657v11.344c0 .229-.153.389-.373.389zm8.107-1.42a.7.7 0 0 1-.574.657l-5.756.763c-.22 0-.373-.16-.373-.389V6.843c0-.308.268-.615.574-.657l5.756-.762c.22 0 .373.159.373.388v11.344z"/>
+                <path d="m17.33 7.88-3.062.41a.516.516 0 1 0 .137 1.022l3.062-.41a.517.517 0 0 0 .443-.58.517.517 0 0 0-.58-.442zm0 3.094-3.062.409a.516.516 0 1 0 .137 1.022l3.062-.409a.517.517 0 0 0 .443-.58.52.52 0 0 0-.58-.442zm0 3.093-3.062.409a.516.516 0 1 0 .137 1.022l3.062-.409a.516.516 0 1 0-.137-1.022zM8.789 7.862l-1.177-.157c-.882-.121-1.606.543-1.606 1.406v4.726a1.72 1.72 0 0 0 1.469 1.679l1.178.157a1.397 1.397 0 0 0 1.606-1.406V9.541c0-.831-.646-1.569-1.47-1.679zm.44 6.405c0 .229-.153.389-.373.389l-1.244-.162a.698.698 0 0 1-.575-.657V9.111c0-.226.149-.384.427-.384h.011l1.178.157a.7.7 0 0 1 .575.657v4.726z"/>
+              </svg>
+              <a href="#" class="uppercase text-black font-bold text-xs">eCatalogue</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="h-full flex flex-wrap flex-row items-center justify-center">
+              <a href="#" class="uppercase text-black font-bold text-xs">Skin care</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="h-full flex flex-wrap flex-row items-center justify-center">
+              <a href="#" class="uppercase text-black font-bold text-xs">Make-Up</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="h-full flex flex-wrap flex-row items-center justify-center">
+              <a href="#" class="uppercase text-black font-bold text-xs">Fragrance</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="h-full flex flex-wrap flex-row items-center justify-center">
+        <a href="#" class="uppercase text-black font-bold text-xs">Bath & Body</a>
+      </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="h-full flex flex-wrap flex-row items-center justify-center">
+              <a href="#" class="uppercase text-black font-bold text-xs">hair</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="h-full flex flex-wrap flex-row items-center justify-center">
+              <a href="#" class="uppercase text-black font-bold text-xs">Accessories</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="h-full flex flex-wrap flex-row items-center justify-center">
+              <a href="#" class="uppercase text-black font-bold text-xs">wellness</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="h-full flex flex-wrap flex-row items-center justify-center">
+              <a href="#" class="uppercase text-black font-bold text-xs">men</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="h-full flex flex-wrap flex-row items-center justify-center">
+              <a href="#" class="uppercase text-black font-bold text-xs">Kids & Baby</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next">
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="fa-solid fa-chevron-left"></i>
+        </div>
+      </div>
+    </div>
+    <!--end caegory md sm xs-->
     <!--make What's new title-->
     <div
       class="flex flex-row flex-wrap w-10/12 mx-auto h-[50px] justify-between content-center mt-14"
@@ -974,7 +1114,9 @@
     <!--end brands-->
     <!--insert video-->
     <div class="xl:w-7/12 lg:w-7/12 md:w-9/12 sm:w-9/12 w-9/12 h-full mx-auto">
-      <video class="w-full h-auto" src="./videos/Oriflame Cosmetics.mp4" autoplay loop></video>
+      <video class="w-full h-auto" controls >
+        <source src="./videos/OriflameCosmetics.mp4" type="video/mp4">
+      </video>
     </div>
     <div class="w-full h-12 mx-auto mb-10 mt-5 flex flex-wrap justify-center">
       <div
