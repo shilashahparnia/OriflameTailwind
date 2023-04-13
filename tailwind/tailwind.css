@@ -97,3 +97,12 @@ p.text {
 .right{
   @apply w-9/12 h-[675px] absolute left-[250px] top-0
 }
+.columna{
+  @apply list-none w-full h-10 flex flex-wrap items-center
+}
+.linkTitle{
+  @apply ml-5 text-black font-bold hover:text-gray-500
+}
+.linkSub{
+  @apply ml-5 text-gray-700 text-sm hover:underline
+}

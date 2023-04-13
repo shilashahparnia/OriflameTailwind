@@ -1,5 +1,9 @@
 /*@tailwind base;*/
 
+.visible {
+  visibility: visible;
+}
+
 .invisible {
   visibility: hidden;
 }
@@ -205,6 +209,10 @@
   height: 3.5rem;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .h-2\/6 {
   height: 33.333333%;
 }
@@ -249,6 +257,10 @@
   height: 190px;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .h-\[40px\] {
   height: 40px;
 }
@@ -261,8 +273,20 @@
   height: 50px;
 }
 
+.h-\[590px\] {
+  height: 590px;
+}
+
+.h-\[660px\] {
+  height: 660px;
+}
+
 .h-\[680px\] {
   height: 680px;
+}
+
+.h-\[80px\] {
+  height: 80px;
 }
 
 .h-\[8px\] {
@@ -580,6 +604,11 @@
   background-color: rgb(236 233 233 / var(--tw-bg-opacity));
 }
 
+.bg-emerald-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(110 231 183 / var(--tw-bg-opacity));
+}
+
 .bg-orange-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 215 170 / var(--tw-bg-opacity));
@@ -613,6 +642,16 @@
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-orange-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
+}
+
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/images\/Normal\.jpg\'\)\] {
@@ -740,6 +779,10 @@
 
 .leading-\[40px\] {
   line-height: 40px;
+}
+
+.leading-\[80px\] {
+  line-height: 80px;
 }
 
 .text-\[\#5C9FF6\] {
@@ -1138,6 +1181,39 @@ p.text {
   top: 0px;
   height: 675px;
   width: 75%;
+}
+
+.columna {
+  display: flex;
+  height: 2.5rem;
+  width: 100%;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.linkTitle {
+  margin-left: 1.25rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.linkTitle:hover {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.linkSub {
+  margin-left: 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.linkSub:hover {
+  text-decoration-line: underline;
 }
 
 .hover\:bg-\[\#9fcbbc\]:hover {
