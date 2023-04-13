@@ -34,3 +34,24 @@ var swiper = new Swiper(".myShahpar", {
     },
   },
 });
+
+let user = document.querySelector("i.fa-user");
+user.addEventListener("mouseover", function () {
+  user.setAttribute("class", "fa-solid fa-user fa-2xl");
+});
+user.addEventListener("mouseleave", function () {
+  user.setAttribute("class", "fa-regular fa-user fa-xl");
+});
+
+let item = document.querySelector("a#drop");
+let itemDrop = document.querySelector("div.submenu");
+let flag = true;
+item.addEventListener("click", function () {
+  if (flag === true) {
+    itemDrop.style.display = "block";
+    flag = false;
+  } else {
+    itemDrop.style.display = "none";
+    flag = true;
+  }
+});
