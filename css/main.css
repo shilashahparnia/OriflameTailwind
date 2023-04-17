@@ -1,13 +1,5 @@
 /*@tailwind base;*/
 
-.visible {
-  visibility: visible;
-}
-
-.invisible {
-  visibility: hidden;
-}
-
 .absolute {
   position: absolute;
 }
@@ -18,6 +10,10 @@
 
 .sticky {
   position: sticky;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .left-0 {
@@ -32,12 +28,24 @@
   left: 7rem;
 }
 
+.left-7 {
+  left: 1.75rem;
+}
+
 .left-8 {
   left: 2rem;
 }
 
+.left-\[-20px\] {
+  left: -20px;
+}
+
 .left-\[200px\] {
   left: 200px;
+}
+
+.left-\[20px\] {
+  left: 20px;
 }
 
 .top-0 {
@@ -56,12 +64,24 @@
   top: 14rem;
 }
 
+.top-\[64px\] {
+  top: 64px;
+}
+
 .top-\[70px\] {
   top: 70px;
 }
 
 .top-\[80px\] {
   top: 80px;
+}
+
+.left-\[23px\] {
+  left: 23px;
+}
+
+.left-\[10px\] {
+  left: 10px;
 }
 
 .z-50 {
@@ -82,6 +102,14 @@
 
 .m-5 {
   margin: 1.25rem;
+}
+
+.m-9 {
+  margin: 2.25rem;
+}
+
+.m-8 {
+  margin: 2rem;
 }
 
 .mx-10 {
@@ -149,6 +177,10 @@
   margin-left: 1.25rem;
 }
 
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -173,12 +205,28 @@
   margin-top: 9rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
 
 .mt-9 {
   margin-top: 2.25rem;
+}
+
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
 }
 
 .block {
@@ -277,6 +325,14 @@
   height: 590px;
 }
 
+.h-\[64px\] {
+  height: 64px;
+}
+
+.h-\[650px\] {
+  height: 650px;
+}
+
 .h-\[660px\] {
   height: 660px;
 }
@@ -301,12 +357,36 @@
   height: 100%;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
 .w-0 {
   width: 0px;
 }
 
 .w-1\/12 {
   width: 8.333333%;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-10\/12 {
@@ -409,6 +489,14 @@
   width: 100%;
 }
 
+.w-screen {
+  width: 100vw;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -477,6 +565,18 @@
   gap: 1rem;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -495,6 +595,11 @@
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .border-b-0 {
@@ -527,6 +632,10 @@
 
 .border-solid {
   border-style: solid;
+}
+
+.border-none {
+  border-style: none;
 }
 
 .border-\[\#007681\] {
@@ -584,6 +693,10 @@
   background-color: rgb(0 118 129 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#64646469\] {
+  background-color: #64646469;
+}
+
 .bg-\[\#75ab99\] {
   --tw-bg-opacity: 1;
   background-color: rgb(117 171 153 / var(--tw-bg-opacity));
@@ -604,24 +717,29 @@
   background-color: rgb(236 233 233 / var(--tw-bg-opacity));
 }
 
+.bg-emerald-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 250 229 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(167 243 208 / var(--tw-bg-opacity));
+}
+
 .bg-emerald-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(110 231 183 / var(--tw-bg-opacity));
 }
 
-.bg-orange-200 {
+.bg-orange-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 215 170 / var(--tw-bg-opacity));
+  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
 }
 
 .bg-purple-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(216 180 254 / var(--tw-bg-opacity));
-}
-
-.bg-purple-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(192 132 252 / var(--tw-bg-opacity));
 }
 
 .bg-red-100 {
@@ -644,14 +762,14 @@
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-orange-300 {
+.bg-orange-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
+  background-color: rgb(254 215 170 / var(--tw-bg-opacity));
 }
 
-.bg-slate-300 {
+.bg-red-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/images\/Normal\.jpg\'\)\] {
@@ -692,9 +810,22 @@
   padding: 0.75rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .text-center {
@@ -703,6 +834,11 @@
 
 .text-justify {
   text-align: justify;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-4xl {
@@ -751,6 +887,15 @@
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[35px\] {
+  font-size: 35px;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -820,6 +965,11 @@
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+.text-purple-700 {
+  --tw-text-opacity: 1;
+  color: rgb(126 34 206 / var(--tw-text-opacity));
+}
+
 .text-slate-700 {
   --tw-text-opacity: 1;
   color: rgb(51 65 85 / var(--tw-text-opacity));
@@ -828,6 +978,29 @@
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[es\] {
+  color: es;
+}
+
+.text-slate-600 {
+  --tw-text-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+
+.text-\[\#91E7E3\] {
+  --tw-text-opacity: 1;
+  color: rgb(145 231 227 / var(--tw-text-opacity));
+}
+
+.text-\[\#128983\] {
+  --tw-text-opacity: 1;
+  color: rgb(18 137 131 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1176,11 +1349,16 @@ p.text {
 }
 
 .right {
+  visibility: hidden;
   position: absolute;
   left: 250px;
   top: 0px;
   height: 675px;
   width: 75%;
+}
+
+.group:hover .right {
+  visibility: visible;
 }
 
 .columna {
@@ -1291,12 +1469,17 @@ p.text {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.hover\:underline:hover {
-  text-decoration-line: underline;
+.hover\:text-\[\]:hover {
+  color: ;
 }
 
-.group:hover .group-hover\:visible {
-  visibility: visible;
+.hover\:text-\[\#91E7E3\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(145 231 227 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 @media (min-width: 640px) {
@@ -1339,6 +1522,14 @@ p.text {
 
   .sm\:w-full {
     width: 100%;
+  }
+
+  .sm\:w-5\/12 {
+    width: 41.666667%;
+  }
+
+  .sm\:w-6\/12 {
+    width: 50%;
   }
 
   .sm\:justify-center {

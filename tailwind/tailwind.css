@@ -95,7 +95,7 @@ p.text {
   @apply border-solid border-l-8 border-y-0 border-r-0
 }
 .right{
-  @apply w-9/12 h-[675px] absolute left-[250px] top-0
+  @apply w-9/12 h-[675px] absolute left-[250px] top-0 invisible group-hover:visible
 }
 .columna{
   @apply list-none w-full h-10 flex flex-wrap items-center

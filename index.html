@@ -20,15 +20,15 @@
   <body>
     <main class="wrapper w-full">
     <!--make menu 2xl xl lg-->
-    <nav class="bg-white w-full h-20 sticky top-0 z-50 2xl:block xl:block lg:block md:hidden sm:hidden hidden">
-      <div class="bg-red-100 w-11/12 mx-auto h-full flex flex-wrap flex-row gap-2 justify-between items-center">
-        <div class="bg-orange-200 w-3/12 h-full flex flex-wrap flex-row justify-between items-center gap-1">
-          <div class="bg-purple-400 w-2/12 h-full flex flex-wrap justify-center items-center relative">
+    <nav class="bg-[#e8e5e5] w-full h-20 sticky top-0 z-50 2xl:block xl:block lg:block md:hidden sm:hidden hidden">
+      <div class="w-11/12 mx-auto h-full flex flex-wrap flex-row gap-2 justify-between items-center">
+        <div class="w-3/12 h-full flex flex-wrap flex-row justify-between items-center gap-1">
+          <div class="w-2/12 h-full flex flex-wrap justify-center items-center relative">
             <ul>
               <li class="list-none">
-                <a href="#" id="drop"><i class="fa-solid fa-bars fa-xl text-black hover:text-gray-500"></i>
+                <a href="#" id="drop" class="text-black"><i class="fa-solid fa-bars fa-xl text-black hover:text-gray-500"></i>
                 </a>
-                <div class="submenu bg-white w-[90.6vw] h-[680px] absolute top-[80px] left-0 flex flex-wrap flex-row gap-1 justify-between border-solid border-gray-300 border-t-4 border-r-0 border-l-0 border-b-4">
+                <div class="submenu bg-white w-[90.6vw] h-[680px] absolute top-[80px] left-0 flex flex-wrap flex-row gap-1 justify-between border-solid border-gray-300 border-t-4 border-r-0 border-l-0 border-b-4 hidden">
                   <div class="left w-[245px] h-full border-solid border-gray-300 border-t-0 border-r-4 border-l-0 border-b-0">
                     <ul class="w-full h-full flex flex-wrap flex-col gap-1 py-5">
                       <li class="list-none w-full h-10 hover:bg-gray-200 flex flex-wrap items-center cursor-pointer">
@@ -36,7 +36,7 @@
                       </li>
                       <li class="list-none w-full h-10 hover:bg-gray-200 flex flex-wrap items-center cursor-pointer group">
                         <a href="#" class="text-black capitalize font-bold text-lg ml-5">eCatalogue</a>
-                        <div class="right invisible group-hover:visible">
+                        <div class="right">
                           <div class="w-6/12 h-full mx-auto flex flex-wrap flex-col justify-start gap-2">
                             <div class="w-full h-12 mt-2 flex flex-wrap justify-center items-center"><h3 class="hover:text-gray-500">Catalogue 06</h3></div>
                             <div class="w-full h-12 flex flex-wrap justify-center items-center"><h4 class="text-gray-500">5.4.2023 - 26.4.2023</h4></div>
@@ -48,7 +48,7 @@
                       </li>
                       <li class="list-none w-full h-10 hover:bg-gray-200 flex flex-wrap items-center cursor-pointer group">
                         <a href="#" class="text-black capitalize font-bold text-lg ml-5">Inspiration</a>
-                        <div class="right invisible group-hover:visible flex flex-wrap  justify-center items-center">
+                        <div class="right flex flex-wrap  justify-center items-center">
                           <div class="bg-emerald-300 w-4/12 h-[300px] mx-auto relative">
                             <a href="#">
                               <img src="./images/inspiration.jpeg" alt="inspiration" class="w-full h-full">
@@ -59,7 +59,7 @@
                       </li>
                       <li class="border-[#91E7E3] list-none w-full h-10 hover:bg-[#d0f6f4] flex flex-wrap items-center cursor-pointer pros group">
                         <a href="#" class="text-black capitalize font-bold text-lg ml-5">skin care</a>
-                        <div class="right invisible group-hover:visible flex flex-wrap flex-row gap-1">
+                        <div class="right flex flex-wrap flex-row gap-1">
                           <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
                             <div class="w-full h-16 flex flex-wrap felx-row gap-2 items-center">
                               <svg aria-hidden="true" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium appshell-fp-ukvtrc h-10 ml-3" data-testid="ProductsIcon" focusable="false" viewBox="0 0 24 24">
@@ -98,7 +98,7 @@
                             </ul>
                           </div>
                           <div class="w-2/12 h-full">
-                            <ul class="w-full h-[660px] flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[660px] flex flex-wrap flex-col gap-2 mt-4">
                               <li class="columna">
                                 <a href="#" class="linkTitle">Eye & Lip care</a>
                               </li>
@@ -129,7 +129,7 @@
                             </ul>
                           </div>
                           <div class="w-3/12 h-full">
-                            <ul class="w-full h-[660px] flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[660px] flex flex-wrap flex-col gap-2 mt-4">
                               <li class="columna">
                                 <a href="#" class="linkTitle">Sun care</a>
                               </li>
@@ -154,7 +154,7 @@
                             </ul>
                           </div>
                           <div class="w-2/12 h-full">
-                            <ul class="w-full h-[660px] flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[660px] flex flex-wrap flex-col gap-2 mt-4">
                               <li class="columna">
                                 <a href="#" class="linkTitle">Brands</a>
                               </li>
@@ -180,32 +180,584 @@
                           </div>
                         </div>
                       </li>
-                      <li class="border-[#E793B7] list-none w-full h-10 hover:bg-[#f0c3d6] flex flex-wrap items-center cursor-pointer pros gropu">
+                      <li class="border-[#E793B7] list-none w-full h-10 hover:bg-[#f0c3d6] flex flex-wrap items-center cursor-pointer pros group">
                         <a href="#" class="text-black capitalize font-bold text-lg ml-5">make-up</a>
-                        <div class="right bg-orange-300 visible group-hover:visible">
-                          <div class=" bg-slate-300 w-3/12 h-full flex flex-wrap flex-col gap-2"></div>
+                        <div class="right flex flex-wrap flex-row gap-1">
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <div class="w-full h-16 flex flex-wrap felx-row gap-2 items-center">
+                              <svg aria-hidden="true" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium appshell-fp-ukvtrc h-10 ml-3" data-testid="ProductsIcon" focusable="false" viewBox="0 0 24 24">
+                                <path d="M19.245 4.225a1.435 1.435 0 0 0-1.078-.475h-5.156c-.419 0-.812.173-1.078.475-.267.302-.39.713-.337 1.128l1.415 11.32v2.03c0 .853.694 1.547 1.547 1.547h2.063c.853 0 1.547-.694 1.547-1.547v-2.03l1.415-11.32a1.437 1.437 0 0 0-.337-1.128zm-2.624 14.994h-2.062a.517.517 0 0 1-.516-.516v-1.547h3.094v1.547a.517.517 0 0 1-.516.516zm.576-3.094h-3.215L12.619 5.224a.386.386 0 0 1 .088-.316.39.39 0 0 1 .304-.127h5.156a.39.39 0 0 1 .304.127.395.395 0 0 1 .088.316l-1.363 10.901zM7.35 3.75c-1.867 0-2.565.736-2.639.82a1.35 1.35 0 0 0-.181 1.42l1.262 2.523v10.191c0 .853.694 1.547 1.547 1.547s1.547-.694 1.547-1.547V8.513l1.262-2.523a1.36 1.36 0 0 0-.173-1.418c-.072-.085-.754-.822-2.624-.822zm-.011 15.469a.517.517 0 0 1-.516-.516V8.906h1.031v9.797a.517.517 0 0 1-.516.516zm1.887-13.69L8.052 7.875H6.627L5.454 5.529c-.033-.066-.014-.224.025-.268.005-.005.489-.479 1.872-.479 1.365 0 1.839.459 1.84.459.049.058.069.22.035.288z"/>
+                              </svg>
+                              <a href="#" class="text-black hover:text-gray-500 text-lg font-bold">What's new</a>
+                            </div>
+                            <ul class="w-full h-[590px] flex flex-wrap flex-col gap-2">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Face</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Foundation</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Concealer & Corrector</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Powder</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Contour & Highlighter</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Blush & Bronzer</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">BB & CC cream</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Primer & Setting mist</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="w-2/12 h-full flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[650px] flex flex-wrap flex-col gap-2 mt-4">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Eyes</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Eyeliner</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Eyeshadow</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Eyebrows</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Lips</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Lipstick</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">lip gloss</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">lip liner</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">lip care</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[650px] flex flex-wrap flex-col gap-2 mt-4">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Nails</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Nail polish</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Base & Topcoat</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Nail care</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Nail polish remover</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Make-up tools</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Brushes & Applicators</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Other make-up tools</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Palettes</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="w-2/12 h-full flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[650px] flex flex-wrap flex-col gap-2 mt-4">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Brands</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">THE ONES</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Giordani Gold</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">OnColour</a>
+                              </li>
+                            </ul>
+                          </div>
                         </div>
                       </li>
-                      <li class="border-[#B6ADA5] list-none w-full h-10 hover:bg-[#f0e2d7] flex flex-wrap items-center cursor-pointer pros">
+                      <li class="border-[#B6ADA5] list-none w-full h-10 hover:bg-[#f0e2d7] flex flex-wrap items-center cursor-pointer pros group">
                         <a href="#" class="text-black capitalize font-bold text-lg ml-5">Fragrance</a>
+                        <div class="right flex flex-wrap flex-row gap-1">
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <div class="w-full h-16 flex flex-wrap felx-row gap-2 items-center">
+                              <svg aria-hidden="true" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium appshell-fp-ukvtrc h-10 ml-3" data-testid="ProductsIcon" focusable="false" viewBox="0 0 24 24">
+                                <path d="M19.245 4.225a1.435 1.435 0 0 0-1.078-.475h-5.156c-.419 0-.812.173-1.078.475-.267.302-.39.713-.337 1.128l1.415 11.32v2.03c0 .853.694 1.547 1.547 1.547h2.063c.853 0 1.547-.694 1.547-1.547v-2.03l1.415-11.32a1.437 1.437 0 0 0-.337-1.128zm-2.624 14.994h-2.062a.517.517 0 0 1-.516-.516v-1.547h3.094v1.547a.517.517 0 0 1-.516.516zm.576-3.094h-3.215L12.619 5.224a.386.386 0 0 1 .088-.316.39.39 0 0 1 .304-.127h5.156a.39.39 0 0 1 .304.127.395.395 0 0 1 .088.316l-1.363 10.901zM7.35 3.75c-1.867 0-2.565.736-2.639.82a1.35 1.35 0 0 0-.181 1.42l1.262 2.523v10.191c0 .853.694 1.547 1.547 1.547s1.547-.694 1.547-1.547V8.513l1.262-2.523a1.36 1.36 0 0 0-.173-1.418c-.072-.085-.754-.822-2.624-.822zm-.011 15.469a.517.517 0 0 1-.516-.516V8.906h1.031v9.797a.517.517 0 0 1-.516.516zm1.887-13.69L8.052 7.875H6.627L5.454 5.529c-.033-.066-.014-.224.025-.268.005-.005.489-.479 1.872-.479 1.365 0 1.839.459 1.84.459.049.058.069.22.035.288z"/>
+                              </svg>
+                              <a href="#" class="text-black hover:text-gray-500 text-lg font-bold">What's new</a>
+                            </div>
+                            <ul class="w-full h-[590px] flex flex-wrap flex-col gap-2">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Women</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Fragrance</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Body care</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Body spray & Deodorant</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Gift set & Purse spray</a>
+                                <li class="columna">
+                                  <a href="#" class="linkTitle">Men</a>
+                                </li>
+                                <li class="columna">
+                                  <a href="#" class="linkSub">Fragrance</a>
+                                </li>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Body spray & Deodorant</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[650px] flex flex-wrap flex-col gap-2 mt-4">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Brands</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Eclat</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Giordani Gold</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Giordani Man</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </li>
-                      <li class="border-[#2774AE] list-none w-full h-10 hover:bg-[#c1dcf0] flex flex-wrap items-center cursor-pointer pros">
+                      <li class="border-[#2774AE] list-none w-full h-10 hover:bg-[#c1dcf0] flex flex-wrap items-center cursor-pointer pros group">
                         <a href="#" class="text-black capitalize font-bold text-lg ml-5">Bath & Body</a>
+                        <div class="right flex flex-wrap flex-row gap-1">
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <div class="w-full h-16 flex flex-wrap felx-row gap-2 items-center">
+                              <svg aria-hidden="true" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium appshell-fp-ukvtrc h-10 ml-3" data-testid="ProductsIcon" focusable="false" viewBox="0 0 24 24">
+                                <path d="M19.245 4.225a1.435 1.435 0 0 0-1.078-.475h-5.156c-.419 0-.812.173-1.078.475-.267.302-.39.713-.337 1.128l1.415 11.32v2.03c0 .853.694 1.547 1.547 1.547h2.063c.853 0 1.547-.694 1.547-1.547v-2.03l1.415-11.32a1.437 1.437 0 0 0-.337-1.128zm-2.624 14.994h-2.062a.517.517 0 0 1-.516-.516v-1.547h3.094v1.547a.517.517 0 0 1-.516.516zm.576-3.094h-3.215L12.619 5.224a.386.386 0 0 1 .088-.316.39.39 0 0 1 .304-.127h5.156a.39.39 0 0 1 .304.127.395.395 0 0 1 .088.316l-1.363 10.901zM7.35 3.75c-1.867 0-2.565.736-2.639.82a1.35 1.35 0 0 0-.181 1.42l1.262 2.523v10.191c0 .853.694 1.547 1.547 1.547s1.547-.694 1.547-1.547V8.513l1.262-2.523a1.36 1.36 0 0 0-.173-1.418c-.072-.085-.754-.822-2.624-.822zm-.011 15.469a.517.517 0 0 1-.516-.516V8.906h1.031v9.797a.517.517 0 0 1-.516.516zm1.887-13.69L8.052 7.875H6.627L5.454 5.529c-.033-.066-.014-.224.025-.268.005-.005.489-.479 1.872-.479 1.365 0 1.839.459 1.84.459.049.058.069.22.035.288z"/>
+                              </svg>
+                              <a href="#" class="text-black hover:text-gray-500 text-lg font-bold">What's new</a>
+                            </div>
+                            <ul class="w-full h-[590px] flex flex-wrap flex-col gap-2">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Body care</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Body moisturiser</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Hand care</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Foot care</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Anti-cellulite & Toning</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="w-2/12 h-full flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[650px] flex flex-wrap flex-col gap-2 mt-4">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Bath & Shower</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Soap</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Body scrub</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Other bath products</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Bath & Body tools</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Manicure & Pedicure</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Body sponges & Others</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Intimate care</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[650px] flex flex-wrap flex-col gap-2 mt-4">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Iral care</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Suncare</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Hair removal</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Deodorants & Anti-perspirants</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="w-2/12 h-full flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[650px] flex flex-wrap flex-col gap-2 mt-4">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Brands</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Swedish Spa</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Love nature</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Feel good</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Sun 360</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Feet Up</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </li>
-                      <li class="border-[#F0C264] list-none w-full h-10 hover:bg-[#f2deb6] flex flex-wrap items-center cursor-pointer pros">
+                      <li class="border-[#F0C264] list-none w-full h-10 hover:bg-[#f2deb6] flex flex-wrap items-center cursor-pointer pros group">
                         <a href="#" class="text-black capitalize font-bold text-lg ml-5">hair</a>
+                        <div class="right flex flex-wrap flex-row gap-1">
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <div class="w-full h-16 flex flex-wrap felx-row gap-2 items-center">
+                              <svg aria-hidden="true" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium appshell-fp-ukvtrc h-10 ml-3" data-testid="ProductsIcon" focusable="false" viewBox="0 0 24 24">
+                                <path d="M19.245 4.225a1.435 1.435 0 0 0-1.078-.475h-5.156c-.419 0-.812.173-1.078.475-.267.302-.39.713-.337 1.128l1.415 11.32v2.03c0 .853.694 1.547 1.547 1.547h2.063c.853 0 1.547-.694 1.547-1.547v-2.03l1.415-11.32a1.437 1.437 0 0 0-.337-1.128zm-2.624 14.994h-2.062a.517.517 0 0 1-.516-.516v-1.547h3.094v1.547a.517.517 0 0 1-.516.516zm.576-3.094h-3.215L12.619 5.224a.386.386 0 0 1 .088-.316.39.39 0 0 1 .304-.127h5.156a.39.39 0 0 1 .304.127.395.395 0 0 1 .088.316l-1.363 10.901zM7.35 3.75c-1.867 0-2.565.736-2.639.82a1.35 1.35 0 0 0-.181 1.42l1.262 2.523v10.191c0 .853.694 1.547 1.547 1.547s1.547-.694 1.547-1.547V8.513l1.262-2.523a1.36 1.36 0 0 0-.173-1.418c-.072-.085-.754-.822-2.624-.822zm-.011 15.469a.517.517 0 0 1-.516-.516V8.906h1.031v9.797a.517.517 0 0 1-.516.516zm1.887-13.69L8.052 7.875H6.627L5.454 5.529c-.033-.066-.014-.224.025-.268.005-.005.489-.479 1.872-.479 1.365 0 1.839.459 1.84.459.049.058.069.22.035.288z"/>
+                              </svg>
+                              <a href="#" class="text-black hover:text-gray-500 text-lg font-bold">What's new</a>
+                            </div>
+                            <ul class="w-full h-[590px] flex flex-wrap flex-col gap-2">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Shampoo</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Conditioner</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Styling products</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Treatments</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Hair mask</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Leave-in treatments</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Hair oil</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[650px] flex flex-wrap flex-col gap-2 mt-4">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Hair tools & Accessories</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Hair brushes & Combs</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Brands</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Eleo</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Beautanicals</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">HairX StyleSmart</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Milk & Honey Gold</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Love nature</a>
+                              </li>  
+                            </ul>
+                          </div>
+                        </div>
                       </li>
-                      <li class="border-[#FF8072] list-none w-full h-10 hover:bg-[#f7bcb6] flex flex-wrap items-center cursor-pointer pros">
+                      <li class="border-[#FF8072] list-none w-full h-10 hover:bg-[#f7bcb6] flex flex-wrap items-center cursor-pointer pros group">
                         <a href="#" class="text-black capitalize font-bold text-lg ml-5">Accessories</a>
+                        <div class="right flex flex-wrap flex-row gap-1">
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <div class="w-full h-16 flex flex-wrap felx-row gap-2 items-center">
+                              <svg aria-hidden="true" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium appshell-fp-ukvtrc h-10 ml-3" data-testid="ProductsIcon" focusable="false" viewBox="0 0 24 24">
+                                <path d="M19.245 4.225a1.435 1.435 0 0 0-1.078-.475h-5.156c-.419 0-.812.173-1.078.475-.267.302-.39.713-.337 1.128l1.415 11.32v2.03c0 .853.694 1.547 1.547 1.547h2.063c.853 0 1.547-.694 1.547-1.547v-2.03l1.415-11.32a1.437 1.437 0 0 0-.337-1.128zm-2.624 14.994h-2.062a.517.517 0 0 1-.516-.516v-1.547h3.094v1.547a.517.517 0 0 1-.516.516zm.576-3.094h-3.215L12.619 5.224a.386.386 0 0 1 .088-.316.39.39 0 0 1 .304-.127h5.156a.39.39 0 0 1 .304.127.395.395 0 0 1 .088.316l-1.363 10.901zM7.35 3.75c-1.867 0-2.565.736-2.639.82a1.35 1.35 0 0 0-.181 1.42l1.262 2.523v10.191c0 .853.694 1.547 1.547 1.547s1.547-.694 1.547-1.547V8.513l1.262-2.523a1.36 1.36 0 0 0-.173-1.418c-.072-.085-.754-.822-2.624-.822zm-.011 15.469a.517.517 0 0 1-.516-.516V8.906h1.031v9.797a.517.517 0 0 1-.516.516zm1.887-13.69L8.052 7.875H6.627L5.454 5.529c-.033-.066-.014-.224.025-.268.005-.005.489-.479 1.872-.479 1.365 0 1.839.459 1.84.459.049.058.069.22.035.288z"/>
+                              </svg>
+                              <a href="#" class="text-black hover:text-gray-500 text-lg font-bold">What's new</a>
+                            </div>
+                            <ul class="w-full h-[590px] flex flex-wrap flex-col gap-2">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Jewellery</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Earrings</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Nicklaces</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Watches & Others</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Fashion accesories</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Bags & Purses</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Sunglasses</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[650px] flex flex-wrap flex-col gap-2 mt-4">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Gifts</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Gifts for her</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Gifts for him</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Brands</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Norrsken</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </li>
-                      <li class="border-[#685BC7] list-none w-full h-10 hover:bg-[#c5bdfd] flex flex-wrap items-center cursor-pointer pros">
+                      <li class="border-[#685BC7] list-none w-full h-10 hover:bg-[#c5bdfd] flex flex-wrap items-center cursor-pointer pros group">
                         <a href="#" class="text-black capitalize font-bold text-lg ml-5">wellness</a>
+                        <div class="right flex flex-wrap flex-row gap-1">
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <div class="w-full h-16 flex flex-wrap felx-row gap-2 items-center">
+                              <svg aria-hidden="true" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium appshell-fp-ukvtrc h-10 ml-3" data-testid="ProductsIcon" focusable="false" viewBox="0 0 24 24">
+                                <path d="M19.245 4.225a1.435 1.435 0 0 0-1.078-.475h-5.156c-.419 0-.812.173-1.078.475-.267.302-.39.713-.337 1.128l1.415 11.32v2.03c0 .853.694 1.547 1.547 1.547h2.063c.853 0 1.547-.694 1.547-1.547v-2.03l1.415-11.32a1.437 1.437 0 0 0-.337-1.128zm-2.624 14.994h-2.062a.517.517 0 0 1-.516-.516v-1.547h3.094v1.547a.517.517 0 0 1-.516.516zm.576-3.094h-3.215L12.619 5.224a.386.386 0 0 1 .088-.316.39.39 0 0 1 .304-.127h5.156a.39.39 0 0 1 .304.127.395.395 0 0 1 .088.316l-1.363 10.901zM7.35 3.75c-1.867 0-2.565.736-2.639.82a1.35 1.35 0 0 0-.181 1.42l1.262 2.523v10.191c0 .853.694 1.547 1.547 1.547s1.547-.694 1.547-1.547V8.513l1.262-2.523a1.36 1.36 0 0 0-.173-1.418c-.072-.085-.754-.822-2.624-.822zm-.011 15.469a.517.517 0 0 1-.516-.516V8.906h1.031v9.797a.517.517 0 0 1-.516.516zm1.887-13.69L8.052 7.875H6.627L5.454 5.529c-.033-.066-.014-.224.025-.268.005-.005.489-.479 1.872-.479 1.365 0 1.839.459 1.84.459.049.058.069.22.035.288z"/>
+                              </svg>
+                              <a href="#" class="text-black hover:text-gray-500 text-lg font-bold">What's new</a>
+                            </div>
+                            <ul class="w-full h-[590px] flex flex-wrap flex-col gap-2">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Supplements & Nutrition</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Shakes</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Soups</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Vitamins & Minerals</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Antioxidants</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Omega 3</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Gut health</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Skin & Hair</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Kids</a>
+                              </li>
+                            </ul> 
+                          </div>
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[650px] flex flex-wrap flex-col gap-2 mt-4">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Full solutions</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Accesories</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Brands</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Wellness by Oriflame</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </li>
-                      <li class="border-[#007681] list-none w-full h-10 hover:bg-[#a8d6da] flex flex-wrap items-center cursor-pointer pros">
+                      <li class="border-[#007681] list-none w-full h-10 hover:bg-[#a8d6da] flex flex-wrap items-center cursor-pointer pros group">
                         <a href="#" class="text-black capitalize font-bold text-lg ml-5">men</a>
+                        <div class="right flex flex-wrap flex-row gap-1">
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <div class="w-full h-16 flex flex-wrap felx-row gap-2 items-center">
+                              <svg aria-hidden="true" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium appshell-fp-ukvtrc h-10 ml-3" data-testid="ProductsIcon" focusable="false" viewBox="0 0 24 24">
+                                <path d="M19.245 4.225a1.435 1.435 0 0 0-1.078-.475h-5.156c-.419 0-.812.173-1.078.475-.267.302-.39.713-.337 1.128l1.415 11.32v2.03c0 .853.694 1.547 1.547 1.547h2.063c.853 0 1.547-.694 1.547-1.547v-2.03l1.415-11.32a1.437 1.437 0 0 0-.337-1.128zm-2.624 14.994h-2.062a.517.517 0 0 1-.516-.516v-1.547h3.094v1.547a.517.517 0 0 1-.516.516zm.576-3.094h-3.215L12.619 5.224a.386.386 0 0 1 .088-.316.39.39 0 0 1 .304-.127h5.156a.39.39 0 0 1 .304.127.395.395 0 0 1 .088.316l-1.363 10.901zM7.35 3.75c-1.867 0-2.565.736-2.639.82a1.35 1.35 0 0 0-.181 1.42l1.262 2.523v10.191c0 .853.694 1.547 1.547 1.547s1.547-.694 1.547-1.547V8.513l1.262-2.523a1.36 1.36 0 0 0-.173-1.418c-.072-.085-.754-.822-2.624-.822zm-.011 15.469a.517.517 0 0 1-.516-.516V8.906h1.031v9.797a.517.517 0 0 1-.516.516zm1.887-13.69L8.052 7.875H6.627L5.454 5.529c-.033-.066-.014-.224.025-.268.005-.005.489-.479 1.872-.479 1.365 0 1.839.459 1.84.459.049.058.069.22.035.288z"/>
+                              </svg>
+                              <a href="#" class="text-black hover:text-gray-500 text-lg font-bold">What's new</a>
+                            </div>
+                            <ul class="w-full h-[590px] flex flex-wrap flex-col gap-2">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Skin care</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Cleanser</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Moisturiser & Treatments</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Shaving & Grooming</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Shaving</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Beard care</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[650px] flex flex-wrap flex-col gap-2 mt-4">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Body & Shower</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Showr gel</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Soap bar</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Hair</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Shampoo</a>
+                              </li>
+                               <li class="columna">
+                                <a href="#" class="linkTitle">Accesories</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Shaving & Grooming</a>
+                              </li>
+                              <li class="columna">
+                               <a href="#" class="linkSub">Gifts for him</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Fragrance</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="w-3/12 h-full flex flex-wrap flex-col gap-2">
+                            <ul class="w-full h-[650px] flex flex-wrap flex-col gap-2 mt-4">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Wellness</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Deodorants & Anti-perspirants</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Brands</a>
+                              </li>
+                              <li class="columna">
+                               <a href="#" class="linkSub">Elcat</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Giordani Man</a>
+                              </li>
+                              <li class="columna">
+                               <a href="#" class="linkSub">North for Men</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </li>
-                      <li class="border-[#7ED1EA] list-none w-full h-10 hover:bg-[#b8ebfa] flex flex-wrap items-center cursor-pointer pros">
+                      <li class="border-[#7ED1EA] list-none w-full h-10 hover:bg-[#b8ebfa] flex flex-wrap items-center cursor-pointer pros group">
                         <a href="#" class="text-black capitalize font-bold text-lg ml-5">Kids & Baby</a>
+                        <div class="right flex flex-wrap flex-row gap-1">
+                          <div class="w-4/12 h-full flex flex-wrap flex-col gap-2">
+                            <div class="w-full h-16 flex flex-wrap felx-row gap-2 items-center">
+                              <svg aria-hidden="true" class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium appshell-fp-ukvtrc h-10 ml-3" data-testid="ProductsIcon" focusable="false" viewBox="0 0 24 24">
+                                <path d="M19.245 4.225a1.435 1.435 0 0 0-1.078-.475h-5.156c-.419 0-.812.173-1.078.475-.267.302-.39.713-.337 1.128l1.415 11.32v2.03c0 .853.694 1.547 1.547 1.547h2.063c.853 0 1.547-.694 1.547-1.547v-2.03l1.415-11.32a1.437 1.437 0 0 0-.337-1.128zm-2.624 14.994h-2.062a.517.517 0 0 1-.516-.516v-1.547h3.094v1.547a.517.517 0 0 1-.516.516zm.576-3.094h-3.215L12.619 5.224a.386.386 0 0 1 .088-.316.39.39 0 0 1 .304-.127h5.156a.39.39 0 0 1 .304.127.395.395 0 0 1 .088.316l-1.363 10.901zM7.35 3.75c-1.867 0-2.565.736-2.639.82a1.35 1.35 0 0 0-.181 1.42l1.262 2.523v10.191c0 .853.694 1.547 1.547 1.547s1.547-.694 1.547-1.547V8.513l1.262-2.523a1.36 1.36 0 0 0-.173-1.418c-.072-.085-.754-.822-2.624-.822zm-.011 15.469a.517.517 0 0 1-.516-.516V8.906h1.031v9.797a.517.517 0 0 1-.516.516zm1.887-13.69L8.052 7.875H6.627L5.454 5.529c-.033-.066-.014-.224.025-.268.005-.005.489-.479 1.872-.479 1.365 0 1.839.459 1.84.459.049.058.069.22.035.288z"/>
+                              </svg>
+                              <a href="#" class="text-black hover:text-gray-500 text-lg font-bold">What's new</a>
+                            </div>
+                            <ul class="w-full h-[590px] flex flex-wrap flex-col gap-2">
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Kids</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Hair & Body wash</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Oral care</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Fragrance</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Baby</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Hair & Body wash</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Body care</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkTitle">Brands</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Baby O</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Loe nature</a>
+                              </li>
+                              <li class="columna">
+                                <a href="#" class="linkSub">Optifresh</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </li>
                       <li class="list-none w-full h-10 hover:bg-gray-200 flex flex-wrap items-center cursor-pointer">
                         <a href="#" class="text-black capitalize font-bold text-lg ml-5">Novelties</a>
@@ -219,26 +771,28 @@
               </li>
             </ul>
           </div>
-          <ul class="bg-purple-400 w-2/12 h-full flex flex-wrap justify-center items-center">
-            <a href="#"><i class="fa-regular fa-user fa-xl text-black"></i></a>
+          <ul class="w-2/12 h-full flex flex-wrap justify-center items-center">
+            <a href="#" class="text-black"><i class="fa-regular fa-user fa-xl text-black"></i></a>
           </ul>
-          <ul class="bg-purple-400 w-4/12 h-full flex flex-wrap justify-center items-center">
+          <ul class="w-4/12 h-full flex flex-wrap justify-center items-center">
             <li class="list-none">
               <a href="#" class="font-bold  text-black hover:text-gray-500">Our story</a>
             </li>
           </ul>
-          <ul class="bg-purple-400 w-3/12 h-full flex flex-wrap justify-center items-center">
+          <ul class="w-3/12 h-full flex flex-wrap justify-center items-center">
             <li class="list-none">
               <a href="#" class="font-bold text-black hover:text-gray-500">Join us</a>
             </li>
           </ul>
         </div>
-        <div class="bg-orange-200 w-3/12 h-full flex flex-wrap justify-center items-center">
+        <div class="w-3/12 h-full flex flex-wrap justify-center items-center">
          <a href="#"><img src="./images/oriflame.svg" class="w-40 h-14" alt="logo"></a>
         </div>
-        <div class="bg-orange-200 w-3/12 h-full flex flex-wrap justify-end items-center gap-3">
-          <div class="bg-purple-300 w-9/12 h-full"></div>
-          <ul class="bg-purple-300 w-2/12 h-full flex flex-wrap justify-center items-center">
+        <div class="w-3/12 h-full flex flex-wrap justify-end items-center gap-3">
+          <div class="w-9/12 h-full flex flex-wrap flex-row justify-center items-center relative">
+            <i class="fa-solid fa-magnifying-glass absolute left-7 text-gray-500"></i><input type="text" placeholder="Search" class="w-full m-3 h-10 bg-white rounded-2xl border-none text-lg pl-10">
+          </div>
+          <ul class="w-2/12 h-full flex flex-wrap justify-center items-center">
             <li class="list-none">
               <a href="#"><i class="fa-solid fa-cart-shopping fa-beat-fade text-[25px] text-black hover:text-gray-500"></i></a>
             </li>
@@ -247,6 +801,119 @@
       </div>
     </nav>
     <!--end menu 2xl xl lg-->
+    <!--make menu md sm xs-->
+    <nav class="bg-[#e8e5e5] w-full h-16 sticky top-0 z-50 2xl:block xl:hidden lg:hidden md:block sm:block block">
+      <div class="w-full mx-auto h-full flex flex-wrap flex-row gap-2 justify-between items-center">
+        <div class="w-3/12 h-full flex flex-wrap flex-row justify-start items-center gap-5">
+          <div class="w-4/12 h-full flex flex-wrap justify-center items-center relative">
+            <ul>
+              <li class="list-none ml-5">
+                <a href="#" id="dropSmall"><i class="fa-solid fa-bars fa-xl text-black hover:text-gray-500"></i>
+                </a>
+                <div class="subMenuSmall w-screen h-screen absolute top-0 left-[-20px]  bg-[#64646469] hidden">
+                 <div class="menuLeft md:w-5/12 sm:w-7/12 w-8/12 h-full  bg-white flex flex-wrap flex-col gap-1 absolute left-[20px]">
+                  <div class="w-full h-[64px] flex flex-wrap flex-row">
+                    <div class="w-1/2 h-full bg-white flex flex-wrap flex-row justify-center items-center cursor-pointer">
+                      <a href="#" id="dropLeft"><i class="fa-solid fa-bars fa-xl text-black hover:text-gray-500"></i>
+                      </a>
+                      <p class="text-black uppercase ml-3 font-bold text-sm">products:</p>
+                    </div>
+                    <div class="w-1/2 h-full bg-[#e8e5e5] flex flex-wrap flex-row justify-center items-center cursor-pointer rounded-b-lg">
+                      <a href="#" class="text-black"><i class="fa-regular fa-user fa-xl text-black"></i></a>
+                      <p class="text-black uppercase ml-3 font-bold text-sm">sign in/register</p>
+                    </div>
+                  </div>
+                  <div class="w-full h-auto overflow-y-scroll flex flex-wrap flex-row absolute top-[64px] bottom-0">
+                    <ul class="w-full h-auto flex flex-wrap flex-col gap-1 py-1">
+                      <li class="list-none w-full h-10 hover:bg-gray-200 flex flex-wrap flex-row items-center justify-between cursor-pointer">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">best offers</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="list-none w-full h-10 hover:bg-gray-200 flex flex-wrap flex-row items-center justify-between cursor-pointer">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">ecatalogue</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="list-none w-full h-10 hover:bg-gray-200 flex flex-wrap flex-row items-center justify-between cursor-pointer">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">Inspiration</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="border-[#91E7E3] list-none w-full h-10 hover:bg-[#d0f6f4] flex flex-wrap flex-row items-center justify-between cursor-pointer pros">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">Skin care</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="border-[#E793B7] list-none w-full h-10 hover:bg-[#f0c3d6] flex flex-wrap flex-row items-center justify-between cursor-pointer pros">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">Make-Up</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="border-[#B6ADA5] list-none w-full h-10 hover:bg-[#f0e2d7] flex flex-wrap flex-row items-center justify-between cursor-pointer pros">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">Fragrance</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="border-[#2774AE] list-none w-full h-10 hover:bg-[#c1dcf0] flex flex-wrap flex-row items-center justify-between cursor-pointer pros">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">bath & body</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="border-[#F0C264] list-none w-full h-10 hover:bg-[#f2deb6] flex flex-wrap flex-row items-center justify-between cursor-pointer pros">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">hair</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="border-[#FF8072] list-none w-full h-10 hover:bg-[#f7bcb6] flex flex-wrap flex-row items-center justify-between cursor-pointer pros">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">accesories</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="border-[#685BC7] list-none w-full h-10 hover:bg-[#c5bdfd] flex flex-wrap flex-row items-center justify-between cursor-pointer pros">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">wellness</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="border-[#007681] list-none w-full h-10 hover:bg-[#a8d6da] flex flex-wrap flex-row items-center justify-between cursor-pointer pros">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">men</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="border-[#7ED1EA] list-none w-full h-10 hover:bg-[#b8ebfa] flex flex-wrap flex-row items-center justify-between cursor-pointer pros">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">kids & baby</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="list-none w-full h-10 hover:bg-gray-200 flex flex-wrap flex-row items-center justify-between cursor-pointer">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">Novelties</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                      <li class="list-none w-full h-10 hover:bg-gray-200 flex flex-wrap flex-row items-center justify-between cursor-pointer">
+                        <a href="#" class="text-black capitalize font-bold ml-5 text-sm">Beauty Rewards Programme</a>
+                        <i class="fa-solid fa-chevron-down mr-5"></i>
+                      </li>
+                    </ul>
+                    <div class="w-full h-28 mb-3 flex flex-wrap flex-col gap-2 justify-center items-center cursor-pointer">
+                      <a href="#" class="text-black font-bold capitalize hover:text-gray-500">who we are</a>
+                      <a href="#" class="text-black font-bold capitalize hover:text-gray-500">product philosophy</a>
+                      <a href="#" class="text-black font-bold capitalize hover:text-gray-500">sustainability</a>
+                    </div>
+                    <div class="w-full h-14 flex flex-wrap flex-row gap-2 cursor-pointer justify-center items-center">
+                      <i class="fa-solid fa-comments text-2xl text-[#128983] hover:text-[#91E7E3] fa-bounce"></i>
+                      <a href="#" class="text-black font-bold capitalize hover:text-gray-500">support center</a>
+                    </div>
+                  </div>
+                 </div>
+                </div>
+              </li>
+            </ul>
+          </div>  
+          <ul class="w-3/12 h-full flex flex-wrap justify-center items-center">
+            <a href="#"><i class="fa-solid fa-magnifying-glass text-gray-500 text-2xl"></i></a>
+          </ul>
+        </div>
+        <div class="w-3/12 h-full flex flex-wrap flex-row justify-center items-center gap-1">
+          <a href="#"><img src="./images/oriflame.svg" class="w-40 h-14" alt="logo"></a>
+        </div>
+        <div class="w-3/12 h-full flex flex-wrap flex-row justify-end items-center">
+          <ul class="w-3/12 h-full flex flex-wrap justify-center items-center mr-3">
+            <li class="list-none">
+              <a href="#"><i class="fa-solid fa-cart-shopping fa-beat-fade text-[25px] text-black hover:text-gray-500"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--end menu md sm xs-->
     <!--make swiper-->
     <div class="w-full h-full mt-10">
       <div class="swiper myShila">
@@ -1511,7 +2178,7 @@
         <p class="text-center m-3 text-gray-400">Oriflame is a leading beauty company selling direct. We are present in more than 60 countries, of which we are the market leader in more than a half. Oriflame has its origin in Sweden with corporate offices in Switzerland. We offer a wide range of high-quality beauty products as well as a unique opportunity to join our sales force and start your own business.</p>
       </div>
       <div class="xl:w-5/12 lg:w-8/12 md:w-8/12 sm:w-9/12 w-10/12 h-auto">
-        <p class="text-center m-3 text-gray-400 text-[14px]">Copyright © Shila Shahparnia 2023 Oriflame Cosmetics Global SA. All rights reserved.</p>
+        <p class="text-center m-3 text-gray-400 text-[14px]">Copyright © <a href = "mailto: shila.shahparnia@gmail.com" class="text-purple-700 font-bold text-[16px]">Shila Shahparnia</a> 2023 Oriflame Cosmetics Global SA. All rights reserved.</p>
       </div>
       <div class="w-5/12 h-auto text-center mb-10">
         <a href="#" class="text-gray-400 hover:underline hover:text-emerald-600">Terms and Conditions for VIP Customers</a>

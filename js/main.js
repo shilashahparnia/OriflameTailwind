@@ -43,6 +43,15 @@ user.addEventListener("mouseleave", function () {
   user.setAttribute("class", "fa-regular fa-user fa-xl");
 });
 
+let bars = document.querySelector("i.fa-bars");
+bars.addEventListener("mouseover", function () {
+  bars.setAttribute("class", "fa-solid fa-bars fa-2xl");
+});
+bars.addEventListener("mouseleave", function () {
+  bars.setAttribute("class", "fa-solid fa-bars fa-xl");
+});
+
+
 let item = document.querySelector("a#drop");
 let itemDrop = document.querySelector("div.submenu");
 let flag = true;
@@ -53,5 +62,31 @@ item.addEventListener("click", function () {
   } else {
     itemDrop.style.display = "none";
     flag = true;
+  }
+});
+
+let item2 = document.querySelector("a#dropSmall");
+let itemDrop2 = document.querySelector("div.subMenuSmall");
+let flag2 = true;
+item2.addEventListener("click", function () {
+  if (flag2 === true) {
+    itemDrop2.style.display = "block";
+    flag2 = false;
+  } else {
+    itemDrop2.style.display = "none";
+    flag2 = true;
+  }
+});
+
+let item3 = document.querySelector("a#dropLeft");
+let itemDrop3 = document.querySelector("div.menuLeft, div.subMenuSmall");
+let flag3 = true;
+item3.addEventListener("click", function () {
+  if (flag3 === true) {
+    itemDrop3.style.display = "none";
+    flag3 = false;
+  } else {
+    itemDrop3.style.display = "none";
+    flag3 = true;
   }
 });
