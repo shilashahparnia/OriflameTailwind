@@ -64,32 +64,16 @@
   top: 14rem;
 }
 
+.top-\[5px\] {
+  top: 5px;
+}
+
 .top-\[64px\] {
   top: 64px;
 }
 
-.top-\[70px\] {
-  top: 70px;
-}
-
 .top-\[80px\] {
   top: 80px;
-}
-
-.top-\[50px\] {
-  top: 50px;
-}
-
-.top-\[20px\] {
-  top: 20px;
-}
-
-.top-\[10px\] {
-  top: 10px;
-}
-
-.top-\[5px\] {
-  top: 5px;
 }
 
 .z-50 {
@@ -357,18 +341,6 @@
   height: 100vh;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
-.h-3 {
-  height: 0.75rem;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
 .w-0 {
   width: 0px;
 }
@@ -483,26 +455,6 @@
 
 .w-screen {
   width: 100vw;
-}
-
-.w-3 {
-  width: 0.75rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-2 {
-  width: 0.5rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-44 {
-  width: 11rem;
 }
 
 .cursor-pointer {
@@ -741,11 +693,6 @@
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
-
 .bg-\[url\(\'\/images\/Normal\.jpg\'\)\] {
   background-image: url('/images/Normal.jpg');
 }
@@ -816,6 +763,10 @@
   line-height: 2.5rem;
 }
 
+.text-\[10px\] {
+  font-size: 10px;
+}
+
 .text-\[12px\] {
   font-size: 12px;
 }
@@ -836,12 +787,12 @@
   font-size: 25px;
 }
 
-.text-\[30px\] {
-  font-size: 30px;
-}
-
 .text-\[40px\] {
   font-size: 40px;
+}
+
+.text-\[8px\] {
+  font-size: 8px;
 }
 
 .text-lg {
@@ -857,10 +808,6 @@
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
 }
 
 .font-bold {
@@ -1434,10 +1381,6 @@ p.text {
     left: 230px;
   }
 
-  .sm\:top-\[10px\] {
-    top: 10px;
-  }
-
   .sm\:top-\[20px\] {
     top: 20px;
   }
@@ -1467,6 +1410,10 @@ p.text {
     height: 2rem;
   }
 
+  .sm\:w-40 {
+    width: 10rem;
+  }
+
   .sm\:w-7\/12 {
     width: 58.333333%;
   }
@@ -1479,40 +1426,24 @@ p.text {
     width: 100%;
   }
 
-  .sm\:w-32 {
-    width: 8rem;
-  }
-
-  .sm\:w-2 {
-    width: 0.5rem;
-  }
-
-  .sm\:w-28 {
-    width: 7rem;
-  }
-
-  .sm\:w-36 {
-    width: 9rem;
-  }
-
-  .sm\:w-4 {
-    width: 1rem;
-  }
-
-  .sm\:w-40 {
-    width: 10rem;
-  }
-
-  .sm\:w-44 {
-    width: 11rem;
-  }
-
   .sm\:justify-center {
     justify-content: center;
   }
 
   .sm\:text-center {
     text-align: center;
+  }
+
+  .sm\:text-\[10px\] {
+    font-size: 10px;
+  }
+
+  .sm\:text-\[14px\] {
+    font-size: 14px;
+  }
+
+  .sm\:text-\[16px\] {
+    font-size: 16px;
   }
 
   .sm\:text-\[18px\] {
@@ -1525,40 +1456,6 @@ p.text {
 
   .sm\:text-\[22px\] {
     font-size: 22px;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
-  .sm\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
-
-  .sm\:text-\[10px\] {
-    font-size: 10px;
-  }
-
-  .sm\:text-\[2px\] {
-    font-size: 2px;
-  }
-
-  .sm\:text-\[12px\] {
-    font-size: 12px;
-  }
-
-  .sm\:text-\[30px\] {
-    font-size: 30px;
-  }
-
-  .sm\:text-\[14px\] {
-    font-size: 14px;
-  }
-
-  .sm\:text-\[\] {
-    color: ;
   }
 }
 
@@ -1581,14 +1478,6 @@ p.text {
 
   .md\:left-\[300px\] {
     left: 300px;
-  }
-
-  .md\:top-\[10px\] {
-    top: 10px;
-  }
-
-  .md\:top-\[0px\] {
-    top: 0px;
   }
 
   .md\:top-\[30px\] {
@@ -1632,6 +1521,10 @@ p.text {
     width: 33.333333%;
   }
 
+  .md\:w-44 {
+    width: 11rem;
+  }
+
   .md\:w-5\/12 {
     width: 41.666667%;
   }
@@ -1652,22 +1545,6 @@ p.text {
     width: 75%;
   }
 
-  .md\:w-32 {
-    width: 8rem;
-  }
-
-  .md\:w-2 {
-    width: 0.5rem;
-  }
-
-  .md\:w-28 {
-    width: 7rem;
-  }
-
-  .md\:w-44 {
-    width: 11rem;
-  }
-
   .md\:justify-start {
     justify-content: flex-start;
   }
@@ -1680,8 +1557,8 @@ p.text {
     font-size: 18px;
   }
 
-  .md\:text-\[22px\] {
-    font-size: 22px;
+  .md\:text-\[20px\] {
+    font-size: 20px;
   }
 
   .md\:text-\[35px\] {
@@ -1691,14 +1568,6 @@ p.text {
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .md\:text-\[20px\] {
-    font-size: 20px;
-  }
-
-  .md\:text-\[30px\] {
-    font-size: 30px;
   }
 }
 
@@ -1721,10 +1590,6 @@ p.text {
 
   .lg\:left-48 {
     left: 12rem;
-  }
-
-  .lg\:top-\[10px\] {
-    top: 10px;
   }
 
   .lg\:top-\[50px\] {
@@ -1768,6 +1633,10 @@ p.text {
     width: 33.333333%;
   }
 
+  .lg\:w-44 {
+    width: 11rem;
+  }
+
   .lg\:w-5\/12 {
     width: 41.666667%;
   }
@@ -1782,14 +1651,6 @@ p.text {
 
   .lg\:w-8\/12 {
     width: 66.666667%;
-  }
-
-  .lg\:w-32 {
-    width: 8rem;
-  }
-
-  .lg\:w-44 {
-    width: 11rem;
   }
 
   .lg\:justify-start {
@@ -1812,6 +1673,10 @@ p.text {
     font-size: 22px;
   }
 
+  .lg\:text-\[30px\] {
+    font-size: 30px;
+  }
+
   .lg\:text-\[40px\] {
     font-size: 40px;
   }
@@ -1819,10 +1684,6 @@ p.text {
   .lg\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .lg\:text-\[30px\] {
-    font-size: 30px;
   }
 }
 
@@ -1841,10 +1702,6 @@ p.text {
 
   .xl\:left-48 {
     left: 12rem;
-  }
-
-  .xl\:top-\[10px\] {
-    top: 10px;
   }
 
   .xl\:top-\[70px\] {
@@ -1884,6 +1741,10 @@ p.text {
     width: 25%;
   }
 
+  .xl\:w-44 {
+    width: 11rem;
+  }
+
   .xl\:w-5\/12 {
     width: 41.666667%;
   }
@@ -1894,14 +1755,6 @@ p.text {
 
   .xl\:w-7\/12 {
     width: 58.333333%;
-  }
-
-  .xl\:w-32 {
-    width: 8rem;
-  }
-
-  .xl\:w-44 {
-    width: 11rem;
   }
 
   .xl\:justify-start {
@@ -1924,6 +1777,10 @@ p.text {
     font-size: 25px;
   }
 
+  .xl\:text-\[30px\] {
+    font-size: 30px;
+  }
+
   .xl\:text-\[50px\] {
     font-size: 50px;
   }
@@ -1932,17 +1789,9 @@ p.text {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
-
-  .xl\:text-\[30px\] {
-    font-size: 30px;
-  }
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:top-\[10px\] {
-    top: 10px;
-  }
-
   .\32xl\:top-\[70px\] {
     top: 70px;
   }
@@ -1963,24 +1812,12 @@ p.text {
     height: 3rem;
   }
 
-  .\32xl\:w-3 {
-    width: 0.75rem;
-  }
-
-  .\32xl\:w-32 {
-    width: 8rem;
-  }
-
-  .\32xl\:w-4 {
-    width: 1rem;
-  }
-
-  .\32xl\:w-40 {
-    width: 10rem;
-  }
-
   .\32xl\:w-44 {
     width: 11rem;
+  }
+
+  .\32xl\:text-\[30px\] {
+    font-size: 30px;
   }
 
   .\32xl\:text-sm {
@@ -1988,7 +1825,11 @@ p.text {
     line-height: 1.25rem;
   }
 
-  .\32xl\:text-\[30px\] {
-    font-size: 30px;
+  .\32xl\:text-\[22px\] {
+    font-size: 22px;
+  }
+
+  .\32xl\:text-\[\] {
+    color: ;
   }
 }
