@@ -50,9 +50,19 @@ user.addEventListener("mouseleave", function () {
 let bars = document.querySelector("i.fa-bars");
 bars.addEventListener("mouseover", function () {
   bars.setAttribute("class", "fa-solid fa-bars fa-2xl");
+  
 });
 bars.addEventListener("mouseleave", function () {
   bars.setAttribute("class", "fa-solid fa-bars fa-xl");
+});
+
+let barsDark = document.querySelector("i.fa-bars#dark");
+barsDark.addEventListener("mouseover", function () {
+  barsDark.setAttribute("class", "fa-solid fa-bars fa-2xl");
+  
+});
+barsDark.addEventListener("mouseleave", function () {
+  barsDark.setAttribute("class", "fa-solid fa-bars fa-xl");
 });
 
 let item = document.querySelector("a#drop");

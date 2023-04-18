@@ -2,107 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: Shila;
-  src: url(../fonts/OriflameSansPrint-Oblique.ttf);
-  src: url(../fonts/OriflameSansPrint-Oblique.otf);
-  src: url(../fonts/OriflameSansPrint-Oblique.woff);
-  src: url(../fonts/OriflameSansPrint-Oblique.woff2);
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: Shila;
-}
-a {
-  text-decoration: none;
-}
-
-.swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.swiper-slide {
-  font-size: 18px;
-  display: flex;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.swiper-button-next > i.arrow-icon {
-  font-size: 35px;
-  color: grey;
-}
-
-.swiper-button-next::after {
-  display: none;
-}
-
-.swiper-button-prev > i.arrow-icon {
-  font-size: 35px;
-  color: grey;
-}
-
-.swiper-button-prev::after {
-  display: none;
-}
-
-.swiper-button-next> i.fa-chevron-right{
-  color: black
-}
-.swiper-button-prev> i.fa-chevron-left{
-  color: black
-}
-
 .title {
-  @apply w-3/12 flex flex-row flex-wrap justify-center content-center;
-}
-p.text {
-  @apply font-bold xl:text-[36px] lg:text-[32px] md:text-[25px] sm:text-[20px] text-[18px] dark:text-white;
-}
-
-.view {
-  @apply w-[130px] h-full border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-200 my-auto cursor-pointer dark:bg-white dark:hover:bg-slate-200;
-}
-
-.edition {
-  @apply absolute top-3 xl:left-6 lg:left-3 md:left-5 sm:left-64 left-48 w-[100px] h-8 bg-gray-500 rounded-lg flex justify-center items-center;
-}
-
-.tag {
-  @apply w-14 h-14 bg-[#685BC7] absolute top-3 xl:left-6 lg:left-4 md:left-4 sm:left-64 left-48 flex justify-center items-center rounded-full cursor-pointer hover:bg-purple-400 transition-all duration-300;
-}
-
-.bag {
-  @apply absolute bottom-3 xl:right-5 lg:right-5 md:right-4 sm:right-64 right-52 w-14 h-14 bg-[#9EC2B6] hover:bg-teal-500 rounded-full flex justify-center items-center cursor-pointer;
-}
-
-.badge {
-  @apply uppercase rounded-3xl w-auto p-2 absolute top-56 xl:left-48 lg:left-48 md:left-40 sm:left-40 left-28 bg-[#75ab99] text-white font-bold hover:bg-[#9fcbbc];
-}
-
-.capsul {
-  @apply w-32 h-12 border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-200 my-auto cursor-pointer m-10 dark:bg-white dark:hover:bg-slate-200;
-}
-.pros{
-  @apply border-solid border-l-8 border-y-0 border-r-0
-}
-.right{
-  @apply w-9/12 h-[675px] absolute left-[250px] top-0 invisible group-hover:visible
-}
-.columna{
-  @apply list-none w-full h-10 flex flex-wrap items-center
-}
-.linkTitle{
-  @apply ml-5 text-black font-bold hover:text-gray-500
-}
-.linkSub{
-  @apply ml-5 text-gray-700 text-sm hover:underline
-}
+    @apply w-3/12 flex flex-row flex-wrap justify-center content-center;
+  }
+  p.text {
+    @apply font-bold xl:text-[36px] lg:text-[32px] md:text-[25px] sm:text-[20px] text-[18px] dark:text-white;
+  }
+  .view {
+    @apply w-[130px] h-full border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-200 my-auto cursor-pointer dark:bg-white dark:hover:bg-slate-200;
+  }
+  .edition {
+    @apply absolute top-3 xl:left-6 lg:left-3 md:left-5 sm:left-64 left-48 w-[100px] h-8 bg-gray-500 rounded-lg flex justify-center items-center;
+  }
+  .tag {
+    @apply w-14 h-14 bg-[#685BC7] absolute top-3 xl:left-6 lg:left-4 md:left-4 sm:left-64 left-48 flex justify-center items-center rounded-full cursor-pointer hover:bg-purple-400 transition-all duration-300;
+  }
+  .bag {
+    @apply absolute bottom-3 xl:right-5 lg:right-5 md:right-4 sm:right-64 right-52 w-14 h-14 bg-[#9EC2B6] hover:bg-teal-500 rounded-full flex justify-center items-center cursor-pointer;
+  }
+  .badge {
+    @apply uppercase rounded-3xl w-auto p-2 absolute top-56 xl:left-48 lg:left-48 md:left-40 sm:left-40 left-28 bg-[#75ab99] text-white font-bold hover:bg-[#9fcbbc];
+  }
+  .capsul {
+    @apply w-32 h-12 border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-200 my-auto cursor-pointer m-10 dark:bg-white dark:hover:bg-slate-200;
+  }
+  .pros{
+    @apply border-solid border-l-8 border-y-0 border-r-0
+  }
+  .right{
+    @apply w-9/12 h-[675px] absolute left-[250px] top-0 invisible group-hover:visible
+  }
+  .columna{
+    @apply list-none w-full h-10 flex flex-wrap items-center
+  }
+  .linkTitle{
+    @apply ml-5 text-black font-bold hover:text-gray-500 dark:text-white dark:hover:text-gray-400
+  }
+  .linkSub{
+    @apply ml-5 text-gray-700 text-sm hover:underline  dark:text-slate-200  dark:hover:text-gray-400 dark:hover:underline
+  }

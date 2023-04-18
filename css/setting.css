@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Shila;
+  src: url(../fonts/OriflameSansPrint-Oblique.ttf);
+  src: url(../fonts/OriflameSansPrint-Oblique.otf);
+  src: url(../fonts/OriflameSansPrint-Oblique.woff);
+  src: url(../fonts/OriflameSansPrint-Oblique.woff2);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Shila;
+}
+a {
+  text-decoration: none;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    font-size: 18px;
+    display: flex;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-button-next > i.arrow-icon {
+    font-size: 35px;
+    color: grey;
+  }
+  
+  .swiper-button-next::after {
+    display: none;
+  }
+  
+  .swiper-button-prev > i.arrow-icon {
+    font-size: 35px;
+    color: grey;
+  }
+  
+  .swiper-button-prev::after {
+    display: none;
+  }
+  
+  .swiper-button-next> i.fa-chevron-right{
+    color: grey
+  }
+  .swiper-button-prev> i.fa-chevron-left{
+    color: grey
+  }
+  
