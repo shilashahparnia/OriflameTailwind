@@ -1,7 +1,7 @@
 var swiper = new Swiper(".myShila", {
-  autoplay: {
+  /*autoplay: {
     delay: 2000,
-  },
+  },*/
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
@@ -16,6 +16,10 @@ var swiper = new Swiper(".myShahpar", {
     prevEl: ".swiper-button-prev",
   },
   breakpoints: {
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 5,
+    },
     480: {
       slidesPerView: 3,
       spaceBetween: 10,
