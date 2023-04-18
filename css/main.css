@@ -501,6 +501,10 @@
   width: 9rem;
 }
 
+.w-44 {
+  width: 11rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1484,6 +1488,18 @@ p.text {
 
   .sm\:w-36 {
     width: 9rem;
+  }
+
+  .sm\:w-4 {
+    width: 1rem;
+  }
+
+  .sm\:w-40 {
+    width: 10rem;
+  }
+
+  .sm\:w-44 {
+    width: 11rem;
   }
 
   .sm\:justify-center {
