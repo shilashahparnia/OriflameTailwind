@@ -741,6 +741,11 @@
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/images\/Normal\.jpg\'\)\] {
   background-image: url('/images/Normal.jpg');
 }
@@ -1536,6 +1541,22 @@ p.text {
     font-size: 10px;
   }
 
+  .sm\:text-\[2px\] {
+    font-size: 2px;
+  }
+
+  .sm\:text-\[12px\] {
+    font-size: 12px;
+  }
+
+  .sm\:text-\[30px\] {
+    font-size: 30px;
+  }
+
+  .sm\:text-\[14px\] {
+    font-size: 14px;
+  }
+
   .sm\:text-\[\] {
     color: ;
   }
@@ -1671,6 +1692,14 @@ p.text {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+
+  .md\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .md\:text-\[30px\] {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1791,6 +1820,10 @@ p.text {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+
+  .lg\:text-\[30px\] {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1899,6 +1932,10 @@ p.text {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+
+  .xl\:text-\[30px\] {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -1949,5 +1986,9 @@ p.text {
   .\32xl\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .\32xl\:text-\[30px\] {
+    font-size: 30px;
   }
 }
