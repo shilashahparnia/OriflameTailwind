@@ -65,11 +65,11 @@ a {
   @apply w-3/12 flex flex-row flex-wrap justify-center content-center;
 }
 p.text {
-  @apply font-bold xl:text-[36px] lg:text-[32px] md:text-[25px] sm:text-[20px] text-[18px];
+  @apply font-bold xl:text-[36px] lg:text-[32px] md:text-[25px] sm:text-[20px] text-[18px] dark:text-white;
 }
 
 .view {
-  @apply w-[130px] h-full border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-100 my-auto cursor-pointer;
+  @apply w-[130px] h-full border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-200 my-auto cursor-pointer dark:bg-white dark:hover:bg-slate-200;
 }
 
 .edition {
@@ -89,7 +89,7 @@ p.text {
 }
 
 .capsul {
-  @apply w-32 h-12 border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-100 my-auto cursor-pointer m-10;
+  @apply w-32 h-12 border-solid rounded-3xl flex flex-row flex-wrap justify-center items-center font-bold hover:bg-slate-200 my-auto cursor-pointer m-10 dark:bg-white dark:hover:bg-slate-200;
 }
 .pros{
   @apply border-solid border-l-8 border-y-0 border-r-0

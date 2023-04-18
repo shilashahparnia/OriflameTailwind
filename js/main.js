@@ -55,7 +55,6 @@ bars.addEventListener("mouseleave", function () {
   bars.setAttribute("class", "fa-solid fa-bars fa-xl");
 });
 
-
 let item = document.querySelector("a#drop");
 let itemDrop = document.querySelector("div.submenu");
 let flag = true;
@@ -94,3 +93,8 @@ item3.addEventListener("click", function () {
     flag3 = true;
   }
 });
+
+let darkMode=document.querySelector("button#btn")
+darkMode.addEventListener("click", function(){
+  document.querySelector("html").classList.toggle("dark")
+})
