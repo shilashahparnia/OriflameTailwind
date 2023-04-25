@@ -149,11 +149,6 @@
   margin-bottom: auto
 }
 
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem
-}
-
 .mb-10 {
   margin-bottom: 2.5rem
 }
@@ -206,6 +201,10 @@
   margin-top: 3.5rem
 }
 
+.mt-16 {
+  margin-top: 4rem
+}
+
 .mt-2 {
   margin-top: 0.5rem
 }
@@ -230,24 +229,24 @@
   margin-top: 1.25rem
 }
 
+.mt-8 {
+  margin-top: 2rem
+}
+
 .mt-9 {
   margin-top: 2.25rem
 }
 
-.mt-10 {
-  margin-top: 2.5rem
+.ml-10 {
+  margin-left: 2.5rem
 }
 
-.mt-0 {
-  margin-top: 0px
+.ml-8 {
+  margin-left: 2rem
 }
 
-.mt-16 {
-  margin-top: 4rem
-}
-
-.mt-8 {
-  margin-top: 2rem
+.ml-7 {
+  margin-left: 1.75rem
 }
 
 .block {
@@ -386,8 +385,12 @@
   height: 100vh
 }
 
-.h-1 {
-  height: 0.25rem
+.h-\[800px\] {
+  height: 800px
+}
+
+.h-\[uato\] {
+  height: uato
 }
 
 .w-0 {
@@ -514,6 +517,22 @@
   width: 100vw
 }
 
+.w-\[\] {
+  width: 
+}
+
+.w-\[510px\] {
+  width: 510px
+}
+
+.w-\[px\] {
+  width: px
+}
+
+.w-\[400px\] {
+  width: 400px
+}
+
 .cursor-pointer {
   cursor: pointer
 }
@@ -608,6 +627,10 @@
 
 .rounded-xl {
   border-radius: 0.75rem
+}
+
+.rounded {
+  border-radius: 0.25rem
 }
 
 .rounded-bl-full {
@@ -768,9 +791,9 @@
   background-color: rgb(255 255 255 / var(--tw-bg-opacity))
 }
 
-.bg-red-200 {
+.bg-teal-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity))
+  background-color: rgb(153 246 228 / var(--tw-bg-opacity))
 }
 
 .bg-\[url\(\'\/images\/Normal\.jpg\'\)\] {
@@ -1591,28 +1614,16 @@ p.text {
     margin-right: 5rem
   }
 
-  .sm\:mt-36 {
-    margin-top: 9rem
-  }
-
-  .sm\:mt-10 {
-    margin-top: 2.5rem
+  .sm\:mt-16 {
+    margin-top: 4rem
   }
 
   .sm\:mt-20 {
     margin-top: 5rem
   }
 
-  .sm\:mt-1 {
-    margin-top: 0.25rem
-  }
-
-  .sm\:mt-16 {
-    margin-top: 4rem
-  }
-
-  .sm\:mt-14 {
-    margin-top: 3.5rem
+  .sm\:mt-36 {
+    margin-top: 9rem
   }
 
   .sm\:mt-8 {
@@ -1830,10 +1841,6 @@ p.text {
     margin-top: 0px
   }
 
-  .lg\:mt-10 {
-    margin-top: 2.5rem
-  }
-
   .lg\:block {
     display: block
   }
@@ -1944,10 +1951,6 @@ p.text {
 
   .xl\:mt-0 {
     margin-top: 0px
-  }
-
-  .xl\:mt-10 {
-    margin-top: 2.5rem
   }
 
   .xl\:block {
